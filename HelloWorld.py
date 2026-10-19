@@ -1,2 +1,2 @@
 for i in range(5):
-    print("Hello from branch B!")
+    print("Hello from both branches!")
