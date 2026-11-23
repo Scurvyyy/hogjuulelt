@@ -1,0 +1,8 @@
+.git
+.github
+__pycache__
+*.pyc
+.pytest_cache
+k8s
+monitoring
+test_app.py

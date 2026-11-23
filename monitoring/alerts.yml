@@ -1,0 +1,10 @@
+groups:
+  - name: hogjuulelt-alerts
+    rules:
+      - alert: HighRequestRate
+        expr: sum(rate(app_requests_total[1m])) > 5
+        for: 10s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Request rate above 5 req/s"
